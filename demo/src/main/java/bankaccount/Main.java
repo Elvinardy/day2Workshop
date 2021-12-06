@@ -2,7 +2,7 @@ package bankaccount;
 
 public class Main {
     
-    public static void main(String[] args) throws IllegalAccessException {
+    public static void main(String[] args) throws IllegalArgumentException {
         
         bankAccount johnAccount = new bankAccount("John" , "123456789", 10000);
 

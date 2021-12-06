@@ -12,27 +12,21 @@ public class bankAccount {
     private String accountClosedDate;
 
 
-    public bankAccount() {
 
-        this("user", "12345", 0);
-    }
-
-    public bankAccount(String name, float accountBalance) {
+    public bankAccount(String name) {
         
-        this(name, accountBalance);
-
+        this.name = name;
+        this.accountBalance = 0;
     }
 
     public bankAccount (String name, String accountNumber, float accountBalance) {
         this.name = name;
-        this.accountNumber = accountNumber;
+        this.accountNumber = "12345678"
         this.accountBalance = accountBalance;
 
         System.out.println("This is John's account");
     }
-
-
-    
+ 
     /**
      * @return String return the name
      */
